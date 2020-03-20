@@ -1,0 +1,3 @@
+[submodule "pyexiftool"]
+	path = pyexiftool
+	url = git://github.com/smarnach/pyexiftool.git
