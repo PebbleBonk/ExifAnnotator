@@ -1,0 +1,25 @@
+{
+    "EXTRACTABLES": {
+        "ImageWidth": ["EXIF:ImageWidth", null],
+        "ImageHeight": ["EXIF:ImageHeight", null],
+        "CropTop": ["XMP:CropTop", 0],
+        "CropLeft": ["XMP:CropLeft", 0],
+        "CropBottom": ["XMP:CropBottom", 1],
+        "CropRight": ["XMP:CropRight", 1],
+        "CropAngle": ["XMP:CropAngle", 0],
+        "Orientation": ["EXIF:Orientation", 1],
+        "Original": ["EXIF:OriginalRawFileName ", null],
+        "ExifFileName": ["File:FileName", null],
+        "RawFileName": ["XMP:RawFileName", null]
+    },
+
+    "SETTINGS": {
+        "dest_dir": "resized/",
+        "dim_max": 640,
+        "height": 640,
+        "width": 320,
+        "quality": 80
+    },
+
+    "ANNOTATIONS_FILE": "annotations.json"
+}
